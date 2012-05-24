@@ -16,6 +16,9 @@
 @interface MPFlipSegue : UIStoryboardSegue
 
 @property (assign, nonatomic) MPFlipStyle style;
+@property (assign, nonatomic) MPFlipStyle defaultStyle;
+
+- (void) doInit;
 
 - (void)perform;
 

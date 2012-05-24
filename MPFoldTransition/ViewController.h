@@ -25,6 +25,9 @@ enum {
 @property (assign, nonatomic) MPFlipStyle flipStyle;
 @property (readonly, nonatomic) BOOL isFold;
 
+- (void) doInit;
+- (UIView *) getLabelForIndex:(NSUInteger)index;
+
 @property (weak, nonatomic) IBOutlet UIView *contentView;
 
 - (IBAction)stepperValueChanged:(id)sender;

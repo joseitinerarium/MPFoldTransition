@@ -13,6 +13,9 @@
 
 @interface MPFoldSegue : UIStoryboardSegue
 
+- (void) doInit;
+
 @property (assign, nonatomic) MPFoldStyle style;
+@property (assign, nonatomic) MPFoldStyle defaultStyle;
 
 @end
